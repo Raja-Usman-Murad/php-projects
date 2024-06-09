@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,200;0,300;0,400;0,900;1,200;1,300;1,400&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Piazzolla", serif;
+}
+.navbar-toggler-icon {
+  /* color: red !important; */
+  background-color: rgb(34, 33, 33) !important;
+  border-radius: 7px !important;
+}
+/* nav bar styling start */
+.navbar {
+  margin: 0;
+  background-color: rgba(40, 188, 246, 0.3) !important;
+  border-radius: 4px;
+}
+.navbar a {
+  font-size: 1.2rem !important;
+  color: black;
+}
+.navbar a:hover {
+  border-bottom: 2px solid grey;
+  /* color: #3498db !important; */
+}
+
+/* nav bar styling end */
+.datetime {
+  font-size: 1rem !important;
+  /* color: #3498db !important; */
+  margin-right: 10px !important;
+  margin-top: 3px !important;
+}
+#hc {
+  color: #3498db !important;
+}
+.ars {
+  font-size: 2rem !important;
+}
+.regesterbtn {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: #3498db;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+.regesterbtn:hover {
+  background-color: #3498db;
+  color: aliceblue;
+}
+
+.animated {
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+.nsrcbtr {
+  font-size: 1rem !important;
+  color: red;
+}
+
+.footer {
+  background-color: rgba(40, 188, 246, 0.3) !important;
+  font-weight: 600;
+  animation: left-right 2s ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-25px);
+  }
+}
+
+@keyframes up-down {
+  0% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-5px);
+  }
+}
+@-webkit-keyframes left-right {
+  0% {
+    transform: scale(2);
+  }
+  100% {
+    transform: translateY(0.5);
+  }
+}
+
+@keyframes left-right {
+  0% {
+    transform: translateY(2);
+  }
+  100% {
+    transform: translateY(0.5);
+  }
+}
